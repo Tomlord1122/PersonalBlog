@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <meta name="description" content="Tom's Home" />
     <title>Tom Liu's Home</title>
     <link rel="stylesheet" href="index.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-</head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header class="header">
-        <!-- <a href="#" class="logo">portfolio</a> -->
+  <body>
+    <!-- <header class="header">
+        <a href="#" class="logo">portfolio</a>
         <nav class="navbar">
             <a href="#" style="--clr: 1" class="active">Home</a>
             <a href="#" style="--clr: 2">About me</a>
             <a href="#" style="--clr: 3">Skill</a>
             <a href="#" style="--clr: 4">Side Project</a>
-            <!-- <a href="#" style='--clr:5'></a> -->
+ 
         </nav>
         <hr class="line" />
-    </header>
+    </header> -->
 
-    <section class="home">
-        <div class="home-detail">
-            <h3><span class="textline2"></span></h3>
-            <h1>Tom Liu.</h1>
-            <h3>And I'm a <span class="textline">Software engineer</span></h3>
-            <p>
-                passionate about life, and bring positive impact to people around me.
-            </p>
-            <p>
-                If you're interested in making an impact together, feel free to drop
-                me a message or email :&rpar;
-            </p>
+    <section class="home content">
+      <div class="home-detail">
+        <h3><span class="textline2"></span></h3>
+        <h1>Tom Liu.</h1>
+        <h3>And I'm a <span class="textline">Software engineer</span></h3>
+        <p>
+          passionate about life, and bring positive impact to people around me.
+        </p>
+        <p>
+          If you're interested in making an impact together, feel free to drop
+          me a message or email :&rpar;
+        </p>
 
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/hsiu-chi-liu-218a281b4/" style="--clr: 7"><i
-                        class="bx bxl-linkedin"></i></a>
-                <a href="https://www.instagram.com/xiuqi_liu/" style="--clr: 8"><i class="bx bxl-instagram"></i></a>
-                <a href="https://github.com/Tomlord1122" style="--clr: 9"><i class="bx bxl-github"></i></a>
-                <a href="https://www.youtube.com/channel/UCiGsz3X7x6cyi2Ru1TqHv2A" style="--clr: 10"><i
-                        class="bx bxl-youtube"></i></a>
-            </div>
-            <button class="btn">靠近我，我會變色</button>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/hsiu-chi-liu-218a281b4/"
+            style="--clr: 7"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/xiuqi_liu/" style="--clr: 8"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Tomlord1122" style="--clr: 9"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCiGsz3X7x6cyi2Ru1TqHv2A"
+            style="--clr: 10"
+            ><i class="bx bxl-youtube"></i
+          ></a>
         </div>
-        <div class="profile-photo">
-            <img src="./Profile.jpg" alt="大頭貼" />
-        </div>
+        <button class="btn">Don't touch!</button>
+      </div>
+      <div class="profile-photo">
+        <img src="./Profile.jpg" alt="大頭貼" />
+      </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">//打字動畫</script>
-    <script>
-        // var type=new Typed('.textline',{
-        //     strings:['Shutterbug','Volleyball lover','CS Student','Blogger'],
-        //     typeSpeed:100,
-        //     backSpeed:100,
-        打字動畫
-        //     loop:true
-        // })
-
-        var type = new Typed(".textline2", {
-            strings: ["Hello", "こんにちは", "嗨你好"],
-            typeSpeed: 300,
-            backSpeed: 300,
-            backDelay: 1000,
-            loop: true,
-        });
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+      //打字動畫
     </script>
-</body>
+    <script>
+      // var type=new Typed('.textline',{
+      //     strings:['Shutterbug','Volleyball lover','CS Student','Blogger'],
+      //     typeSpeed:100,
+      //     backSpeed:100,
+      打字動畫;
+      //     loop:true
+      // })
 
+      var type = new Typed(".textline2", {
+        strings: ["Hello", "こんにちは", "嗨你好"],
+        typeSpeed: 300,
+        backSpeed: 300,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>

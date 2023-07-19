@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Tangerine");
 
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -164,6 +170,7 @@ img {
   animation-delay: 2s 3s;
   opacity: 0;
 }
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
